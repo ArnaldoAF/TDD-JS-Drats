@@ -9,9 +9,12 @@ describe('Math class', function() {
         math.sum(5, 5, (value) => {
             assert.equal(value, 10);
             done();
-        })
-
-
-
+        });
     })
-})
+    it.skip('Multiply two numbers', function() {
+        const math = new Math();
+
+        asset.equal(math.multiply(5, 5), 25);
+
+    });
+});
