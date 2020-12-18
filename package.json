@@ -1,0 +1,23 @@
+{
+    "name": "TDD-JS-Drats",
+    "version": "1.0.0",
+    "description": "Some drafts while I learn TDD in JS",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/ArnaldoAF/TDD-JS-Drats.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/ArnaldoAF/TDD-JS-Drats/issues"
+    },
+    "homepage": "https://github.com/ArnaldoAF/TDD-JS-Drats#readme",
+    "devDependencies": {
+        "mocha": "^8.2.1"
+    }
+}
