@@ -15,6 +15,11 @@ describe('Math class', function() {
     })
     it('Multiply two numbers', function() {
         const math = new Math();
+
+        expect(math.multiply(5, 5)).to.equal(25);
+    });
+
+    it('Test Equals Objects', function() {
         const obj = {
             name: "Arnaldo"
         }
@@ -26,14 +31,9 @@ describe('Math class', function() {
 
         //expect(obj).to.have.property('name').
         //equal('Arnaldo');
+    })
 
-
-
-        //expect(math.multiply(5, 5)).to.equal(25);
-
-    });
-
-    it.only('Calls req qith sum and index values', function() {
+    it('Calls req qith sum and index values', function() {
         const req = {};
         const res = {
             load: sinon.spy()

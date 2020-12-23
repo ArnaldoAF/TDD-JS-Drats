@@ -1,2 +1,12 @@
 # TDD-JS-Drats
-Some drafts while I learn TDD in JS
+Some drafts for Test Driven Development studies.
+
+Tests was writen in JavaScript.
+
+It weas used the tools: 
+
+- Mocha for testes
+- Chai for make the tests more legible
+
+
+
